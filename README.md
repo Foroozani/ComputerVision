@@ -5,6 +5,8 @@
 [![Python 3.6+](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 
 ---
+Let us start with simple definition: **Predicting the location of the object along with the class is called object Detection**. In place of predicting the class of object from an image, we now have to predict the class as well as a rectangle(called bounding box) containing that object. It takes 4 variables to uniquely identify a rectangle. Object Detection is modeled as a classification problem where we take windows of fixed sizes from input image at all the possible locations feed these patches to an image classifier. Each window is fed to the classifier which predicts the class of the object in the window( or background if none is present). There are various methods for object detection like RCNN, Faster-RCNN, SSD, YOLO etc. 
+
 
 ## Module 1: Face detection with OpenCV
 ### (a) - The Viola-Jones algorithm 
