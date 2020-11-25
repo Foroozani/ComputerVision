@@ -2,7 +2,7 @@
 
 [![TensorFlow 2.2](https://img.shields.io/badge/TensorFlow-2.2-FF6F00?logo=tensorflow)](https://github.com/tensorflow/tensorflow/releases/tag/v2.2.0) [![Documentation Status](https://readthedocs.org/projects/tensorflow-object-detection-api-tutorial/badge/?version=latest)](http://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/?badge=latest)
 [![Pillow](https://readthedocs.org/projects/pillow/badge/?version=latest)](https://pillow.readthedocs.io/?badge=latest)
-![Python 3.6+](https://img.shields.io/badge/python-3.6-blue.svg)
+[![Python 3.6+](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 
 ---
 
@@ -16,6 +16,7 @@ pkg-config --modversion opencv
 
 3.2.0
 ```
+in case if it is not found, try `sudo apt-get install libopencv-devsudo`
 
 This is one of the most powerful to date algorithms for computer vision developed by [P. Viola and M. Joens](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.10.6807&rep=rep1&type=pdf)
 
