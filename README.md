@@ -25,7 +25,7 @@ $ conda install -c menpo opencv3
 ```
 
 ### (b) - Emotion detection
-Many companies today use CV in their core business to detect emotions. For example, Apple recently bought Emotient, a startup that builds CV tools to recognize people's feelings.
+Many companies today use CV in their core business to detect emotions. For example, Apple bought Emotient, a startup that builds CV tools to recognize people's feelings.
 Building an AI that sees human emotions can be highly valuable in some markets, like recomender system or self-driving car. Here is an example to detect one motion: Happiness :) 
 
 
