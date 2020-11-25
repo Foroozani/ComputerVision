@@ -6,7 +6,7 @@
 
 ---
 
-
+## Module 1: Face Detection with OpenCV
 ## The Viola-Jones algorithm 
 
 This algorithm lies at the foundation of [OpenCV](https://github.com/opencv/opencv) library. I downgrade opencv. check the version
@@ -21,7 +21,7 @@ in case if it is not found, try `sudo apt-get install libopencv-devsudo`
 This is one of the most powerful to date algorithms for computer vision developed by [P. Viola and M. Joens](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.10.6807&rep=rep1&type=pdf)
 
 
-## Module 1: Face Detection with OpenCV
+
 
 Additional reading:
 
