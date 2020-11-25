@@ -20,7 +20,7 @@ in case if it is not found, try `sudo apt-get install libopencv-devsudo`. For th
 
 ```bash 
 $ pip install torchvision==0.1.6
-$  pip3 install torch==0.3.1
+$ pip3 install torch==0.3.1
 $ conda install -c menpo opencv3
 
 ```
