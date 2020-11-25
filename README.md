@@ -16,7 +16,17 @@ pkg-config --modversion opencv
 
 3.2.0
 ```
-in case if it is not found, try `sudo apt-get install libopencv-devsudo`
+in case if it is not found, try `sudo apt-get install libopencv-devsudo`. For this virtual-environment I have `python3.6`. All the libraries and dependencies verion can be find in *environment.yml*. Main libraries installed with:
+
+```bash 
+$ pip install torchvision==0.1.6
+$  pip3 install torch==0.3.1
+$ conda install -c menpo opencv3
+
+```
+
+
+
 
 This is one of the most powerful to date algorithms for computer vision developed by [P. Viola and M. Joens](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.10.6807&rep=rep1&type=pdf)
 
