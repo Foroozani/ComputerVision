@@ -1,4 +1,4 @@
-# Computer Vision
+# Computer Vision (CV)
 
 [![TensorFlow 2.2](https://img.shields.io/badge/TensorFlow-2.2-FF6F00?logo=tensorflow)](https://github.com/tensorflow/tensorflow/releases/tag/v2.2.0) [![Documentation Status](https://readthedocs.org/projects/tensorflow-object-detection-api-tutorial/badge/?version=latest)](http://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/?badge=latest)
 [![Pillow](https://readthedocs.org/projects/pillow/badge/?version=latest)](https://pillow.readthedocs.io/?badge=latest)
@@ -6,7 +6,7 @@
 
 ---
 
-## Module 1: Face Detection with OpenCV
+## Module 1: Face detection with OpenCV
 ### (a) - The Viola-Jones algorithm 
 This is one of the most powerful to date algorithms for computer vision developed by [P. Viola and M. Joens](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.10.6807&rep=rep1&type=pdf). This algorithm lies at the foundation of [OpenCV](https://github.com/opencv/opencv) library. I downgrade opencv. check the version
 
@@ -24,7 +24,9 @@ $ conda install -c menpo opencv3
 
 ```
 
-
+### (b) - Emotion detection
+Many companies today use CV in their core business to detect emotions. For example, Apple recently bought Emotient, a startup that builds CV tools to recognize people's feelings.
+Building an AI that sees human emotions can be highly valuable in some markets, like recomender system or self-driving car. Here is an example to detect one motion: Happiness :) 
 
 
 
