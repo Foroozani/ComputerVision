@@ -3,6 +3,10 @@
 [![TensorFlow 2.2](https://img.shields.io/badge/TensorFlow-2.2-FF6F00?logo=tensorflow)](https://github.com/tensorflow/tensorflow/releases/tag/v2.2.0) [![Documentation Status](https://readthedocs.org/projects/tensorflow-object-detection-api-tutorial/badge/?version=latest)](http://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/?badge=latest)
 [![Pillow](https://readthedocs.org/projects/pillow/badge/?version=latest)](https://pillow.readthedocs.io/?badge=latest)
 [![Python 3.6+](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
+[![PyPI Version](https://img.shields.io/pypi/v/imageio.svg)](https://pypi.python.org/pypi/imageio/)
+[![Documentation Status](https://readthedocs.org/projects/imageio/badge/?version=latest)](https://imageio.readthedocs.io)
+[![PyPi Download stats](http://pepy.tech/badge/imageio)](http://pepy.tech/project/imageio)
+[![](https://img.shields.io/badge/PyTorch%20-%23EE4C2C.svg?&style=for-the-badge&logo=PyTorch&logoColor=white)]()
 
 ---
 Let us start with simple definition: **Predicting the location of the object along with the class is called object Detection**. In place of predicting the class of object from an image, we now have to predict the class as well as a rectangle(called bounding box) containing that object. It takes 4 variables to uniquely identify a rectangle. Object Detection is modeled as a classification problem where we take windows of fixed sizes from input image at all the possible locations feed these patches to an image classifier. Each window is fed to the classifier which predicts the class of the object in the window( or background if none is present). There are various methods for object detection like RCNN, Faster-RCNN, [SSD](https://github.com/Foroozani/ComputerVision/tree/main/object_detection_SSD), [YOLO](https://github.com/Foroozani/Object_detect_YOLOV3V4) etc. 
