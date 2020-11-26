@@ -68,7 +68,7 @@ pip install imageio-ffmpeg
 2.9.0
 ```
 
-Pre-trained data set is available at [VOC Dataset ](http://host.robots.ox.ac.uk/pascal/VOC/index.html)
+Pre-trained data set is available at [VOC Dataset,  PASCAL Visual Object Classes ](http://host.robots.ox.ac.uk/pascal/VOC/index.html)
 
 
 
