@@ -82,21 +82,6 @@ adversarial learning, and was initially conceived in a bar in Montreal by _Ian G
 min-max optimization problem.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-**Further reading**
+**Further reading** https://towardsdatascience.com/understanding-generative-adversarial-networks-gans-cd6e4651a29
 
 
