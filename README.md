@@ -77,6 +77,10 @@ pip install imageio-ffmpeg
 
 ## Module 3: Image Creation with GANs
 
+**Generative Adversarial Network** (GAN) can generate images from a learned latent space. A GAN is one of the simplest neural-based models that implements
+adversarial learning, and was initially conceived in a bar in Montreal by _Ian Goodfellow and collaborators (Goodfellow, I., et al. (2014))_. It is based on a
+min-max optimization problem.
+
 
 
 
@@ -93,6 +97,6 @@ pip install imageio-ffmpeg
 
 
 ---
-**Refrences**
+**Further reading**
 
-https://cv-tricks.com/object-detection/faster-r-cnn-yolo-ssd/
+
