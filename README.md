@@ -59,6 +59,7 @@ That’s a lot of algorithms. Which one should you use? Currently, Faster-RCNN i
 Install the library [imageio](https://imageio.readthedocs.io/en/stable/userapi.html)
 ```bash 
 pip install imageio
+pip install imageio-ffmpeg
 2.9.0
 ```
 
