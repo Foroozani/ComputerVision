@@ -83,7 +83,17 @@ Pre-trained data set is available at [VOC Dataset,  PASCAL Visual Object Classes
 adversarial learning, and was initially conceived in a bar in Montreal by _Ian Goodfellow and collaborators (Goodfellow, I., et al. (2014))_. It is based on a
 min-max optimization problem. Here is example of deep Convolutional GAN 
  https://towardsdatascience.com/understanding-generative-adversarial-networks-gans-cd6e4651a29
-
+ 
+ GANs can be used for:
+ 
+ - generating images
+ - image modification 
+ - super resolution 
+ - assisting asrtist  
+ - speech generation 
+ - face ageing 
+ 
+ 
 Additional reading:
 
 - Chanchana Sornsoontorn, 2017 [How do GANs intuitively work?](https://hackernoon.com/how-do-gans-intuitively-work-2dda07f247a1)
