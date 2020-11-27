@@ -60,7 +60,7 @@ Additional reading:
 That’s a lot of algorithms. Which one should you use? Currently, Faster-RCNN is the choice if you are fanatic about the accuracy numbers. However, if you are strapped for computation(probably running it on Nvidia Jetsons), SSD is a better recommendation. Finally, if accuracy is not too much of a concern but you want to go super fast, YOLO will be the way to go. First of all a visual understanding of speed vs accuracy trade-off:
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/Foroozani/ComputerVision/blob/main/image/comparision.png">
+  <img width="460" height="250" src="https://github.com/Foroozani/ComputerVision/blob/main/image/comparision.png">
 </p>
 
 Install the library [imageio](https://imageio.readthedocs.io/en/stable/userapi.html)
