@@ -81,8 +81,10 @@ Pre-trained data set is available at [VOC Dataset,  PASCAL Visual Object Classes
 **Generative Adversarial Network** (GAN) can generate images from a learned latent space. A GAN is one of the simplest neural-based models that implements
 adversarial learning, and was initially conceived in a bar in Montreal by _Ian Goodfellow and collaborators (Goodfellow, I., et al. (2014))_. It is based on a
 min-max optimization problem. Here is example of deep Convolutional GAN 
+ https://towardsdatascience.com/understanding-generative-adversarial-networks-gans-cd6e4651a29
 
+Additional reading:
 
-**Further reading** https://towardsdatascience.com/understanding-generative-adversarial-networks-gans-cd6e4651a29
-
-
+- Chanchana Sornsoontorn, 2017 [How do GANs intuitively work?](https://hackernoon.com/how-do-gans-intuitively-work-2dda07f247a1)
+- Ian Goodfellow et al., 2014 [ Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf)
+- Matthew D. Zeiler et al., 2011 [Adaptive Deconvolutional Networks for Mid and High Level Feature Learning](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.227.7393&rep=rep1&type=pdf)
