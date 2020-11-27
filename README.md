@@ -71,7 +71,7 @@ pip install imageio-ffmpeg
 
 Pre-trained data set is available at [VOC Dataset,  PASCAL Visual Object Classes ](http://host.robots.ox.ac.uk/pascal/VOC/index.html)
 
-
+**Refrence** Wei Liu et al., 2015 [SSD: Single Shot MultiBox Detector](https://arxiv.org/pdf/1512.02325.pdf)
 
 
 
