@@ -77,7 +77,7 @@ Pre-trained data set is available at [VOC Dataset,  PASCAL Visual Object Classes
 
 
 
-## Module 3: Image Creation with GANs
+## Module 3: Image Creation with DCGANs
 
 **Generative Adversarial Network** (GAN) can generate images from a learned latent space. A GAN is one of the simplest neural-based models that implements
 adversarial learning, and was initially conceived in a bar in Montreal by _Ian Goodfellow and collaborators (Goodfellow, I., et al. (2014))_. It is based on a
