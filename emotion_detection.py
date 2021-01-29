@@ -10,8 +10,6 @@ smile_cascade = cv2.CascadeClassifier('haarcascade_smile.xml')
 
 def detect(gray, frame):
     """
-    
-
     Parameters
     ----------
     gray : TYPE
@@ -29,7 +27,7 @@ def detect(gray, frame):
     # detectMultiScale(image, scaleFactor, minNeighbors)
     faces = face_cascade.detectMultiScale(gray, 1.3, 5)
     for (x, y, w, h) in faces:    # cordinate of upper left corner
-        cv2.rectangle(frame,(x, y), (x+w, y+h), (255, 0, 0), 3)
+        cv2.rectangle(frame,(x, y), (x+w, y+h), (255, 0, 0), 3)   # thr color of bounding box
         cv2.putText(frame, "FACE", (x,y),cv2.FONT_HERSHEY_COMPLEX,0.5,(250,250,250),1)
         
         roi_gray = gray[y:y+h, x:x+w]
@@ -57,6 +55,4 @@ while True:
         break
 video_capture.release()
 cv2.destroyAllWindows()
-
-
     
